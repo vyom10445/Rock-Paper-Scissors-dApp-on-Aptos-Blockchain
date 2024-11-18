@@ -1,0 +1,13 @@
+[package]
+name = "Rock-Paper-Scissors-dApp-on-Aptos-Blockchain"
+version = "1.0.0"
+authors = []
+[addresses]
+metaschool = "0xd13720ffeed3dd3433620687696cec4cd12428a14ad72407ed013ae7d6cb0a71"
+std = "0x1"
+[dev-addresses]
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+[dev-dependencies]
